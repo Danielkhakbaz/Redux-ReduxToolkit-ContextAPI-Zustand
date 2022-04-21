@@ -23,5 +23,5 @@ const CountReducer = (state = initialState, action) => {
 };
 
 export const Reducers = combineReducers({
-  count: CountReducer,
+  CountReducer,
 });

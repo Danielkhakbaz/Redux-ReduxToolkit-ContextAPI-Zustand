@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 const About = () => {
-  const { count } = useSelector((state) => state.count);
+  const { count } = useSelector((state) => state.CountReducer);
 
   return (
     <>
