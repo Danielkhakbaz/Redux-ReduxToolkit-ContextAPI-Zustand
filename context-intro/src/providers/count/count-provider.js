@@ -6,6 +6,7 @@ const CountProvider = ({ children }) => {
   const initialState = {
     count: 5,
   };
+  
   const [state, dispatch] = useReducer(CountReducer, initialState);
 
   return (

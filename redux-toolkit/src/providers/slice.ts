@@ -19,4 +19,5 @@ const Slice = createSlice({
 });
 
 export const { increment, incrementByAmount, decrement } = Slice.actions;
+
 export default Slice.reducer;
